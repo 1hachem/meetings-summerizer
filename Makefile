@@ -7,4 +7,5 @@ test:
 
 run:
 	streamlit run main.py 
-
+update_pip:
+	pipreqs --force .
